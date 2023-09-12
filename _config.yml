@@ -20,7 +20,7 @@ title                    : "일어나공부해야지" # 사이트 탭 이름
 title_separator          : "-"
 subtitle                 :  # site tagline that appears below site title in masthead 
 name                     : "codehyunn" # 블로그 주인장 이름
-description              : "이것저것 공부 기록장"
+description              : "공부기록장"
 url                      : "https://codehyunn.github.io" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
