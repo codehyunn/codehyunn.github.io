@@ -200,6 +200,8 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Math equation
+markdown: kramdown
 
 # Markdown Processing
 kramdown:
