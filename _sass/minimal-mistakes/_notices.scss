@@ -107,3 +107,9 @@
 .notice--danger {
   @include notice($danger-color);
 }
+
+/* Add New notice */
+
+.notice--blog-theme {
+  @include notice($blog-theme-color);
+}
