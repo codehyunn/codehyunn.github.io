@@ -13,10 +13,10 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+$serif: 'nanumsquare', Georgia, Times, serif !default; // add nanumsquare 
+$sans-serif: 'nanumsquare', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", // add nanumsquare 
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$monospace: 'nanumsquare', Monaco, Consolas, "Lucida Console", monospace !default; // add nanumsquare 
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -62,7 +62,7 @@ $light-gray: mix(#fff, $gray, 50%) !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $background-color: #fff !default;
-$code-background-color: #fafafa !default;
+$code-background-color: #dee1e781 !default; // default #fafafa
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
