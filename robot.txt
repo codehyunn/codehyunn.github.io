@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://codehyunn.github.io/sitemap.xml
