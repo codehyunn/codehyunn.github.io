@@ -7,9 +7,6 @@ categories:
   - Algorithm
 tags:
   - Shortest Path
-  - Dijkstra
-  - Floyd Warshall
-  - Bellman Ford
 last_modified_at: 2023-11-15
 toc: true
 toc_sticky : true
