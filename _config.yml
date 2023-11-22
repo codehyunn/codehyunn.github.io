@@ -113,7 +113,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:wlgus01110.gmail.com" #"mailto:your.name@email.com"
+      url: "mailto:wlgus01110@gmail.com" #"mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -135,7 +135,7 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:wlgus01110.gmail.com" #"mailto:your.name@email.com"
+      url: "mailto:wlgus01110@gmail.com" #"mailto:your.name@email.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
