@@ -8,7 +8,7 @@ categories:
 tags:
   - Paper
   - CNN
-permalink: /paper-review/vggnet/
+permalink: /paper-review/02/
 last_modified_at: 2023-10-08
 ---
 
