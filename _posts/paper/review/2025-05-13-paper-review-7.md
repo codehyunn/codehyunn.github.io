@@ -40,6 +40,8 @@ Neural net 기반의 end-to-end Auto Speech Recognition (ASR) 시스템이 큰 �
 
 
 ## | Method - Conformer Encoder
+![image](https://github.com/user-attachments/assets/ac8cde20-6508-4820-9419-b66f400c7013){:.align-center}
+
 Conformer Encoder는 입력 시퀀스의 길이를 줄이면서도 중요한 정보는 보존할 수 있도록 하는 Convolution Subsampling layer와 제안 모델의 차별점인 Conformer Block을 통해 입력을 처리한다. Conformer Block은 Feed-forward module, Self-attention module, Convolution module로 이루어져 있다. 
 
 ### Multi-Headed Self-Attention module
