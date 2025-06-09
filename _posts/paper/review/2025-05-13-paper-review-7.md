@@ -40,6 +40,9 @@ Neural net 기반의 end-to-end Auto Speech Recognition (ASR) 시스템이 큰 �
 
 
 ## | Method - Conformer Encoder
+
+![image](https://res.cloudinary.com/dme9moe4y/image/upload/v1749454609/conformer.png){:.align-center}
+
 Conformer Encoder는 입력 시퀀스의 길이를 줄이면서도 중요한 정보는 보존할 수 있도록 하는 Convolution Subsampling layer와 제안 모델의 차별점인 Conformer Block을 통해 입력을 처리한다. Conformer Block은 Feed-forward module, Self-attention module, Convolution module로 이루어져 있다. 
 
 ### Multi-Headed Self-Attention module
@@ -49,8 +52,12 @@ Self-Attention과 Sinusoidal positional encoding을 함께 사용했다. 이러�
 Pointwise convolution - GLU - 1D depthwise convolution - batch norm 의 순서로 구성되어 있다. 
 
 **🐨 Point-wise Convolution**<br>
+![image](https://res.cloudinary.com/dme9moe4y/image/upload/v1749459006/pointwise_convolution_ydw46r.png){:.align-center}
+<br>
 Point-wise Convolution은 1x1 convolution으로 입력의 각 채널에 대한 연산을 수행한다. 연산을 수행하면 Feature map의 크기는 유지되고, 채널의 수가 조절된다. <br><br>
 **🐨 Depth-wise Convolution**<br>
+![image](https://res.cloudinary.com/dme9moe4y/image/upload/v1749458614/depthwise_convolution_u1fpjq.png){:.align-center}
+<br>
 Depth-wise Convolution은 각 채널마다 따로 convolution 연산을 수행한다. 채널 별로 별도의 필터가 존재하며, 상호작용 없이 각각 특징을 추출한다. 연산을 수행하면 Point-wise convolution과 반대로, Feature map의 크기가 변경되고, 채널의 수는 유지된다.
 {:.notice}   
 
